@@ -38,4 +38,4 @@ central = complete_data.loc[(complete_data['region'] == 'Central')]
 
 
 ## Loading Process
-complete_data.to_csv('transformed_data.csv')
+complete_data.to_csv('transformed_data.csv', index= 0)
